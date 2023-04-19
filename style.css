@@ -1,40 +1,39 @@
-body {
-    background-color: #FCFFF5;
+.container {
+    /* background-color: aqua; */
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+}
+
+.content{
+    width: 1000px;
+    height: min-content;
+    margin-bottom: 2px;
+}
+
+.card-1{
+    width: 39%;
+    height: 85px;
+    background-color: #7EE5DA;
+    float: left;
     text-align: center;
-    font-family: Geneva, Verdana, sans-serif;
 }
-
-.nav-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px ;
-    overflow: hidden;
-    background-color:#D1DBBD ;
+.card-2{
+    width: 20%;
+    height: 85px;
+    background-color: #70CCC2;
+    float: left;
+    margin: 0 1%;
+    text-align: center;
+    font-size: 13px;
 }
-
-.navbarMenu {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
+.card-3{
+    width: 39%;
+    height: 85px;
+    background-color: #62B3AA;
+    float: left;
+    text-align: center;
 }
- .navbarMenu:hover{
-     background-color: #3E606F;
- }
-
- .home-content{
-     text-align: left;
- }
-
- .about-us-p{
-     text-align: left;
- }
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width:100%;
-    background-color: #91AA9D;
-    color: white;
+.clear {
+    clear: both;
 }
-

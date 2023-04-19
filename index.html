@@ -2,65 +2,53 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>MArdini Pizzas|Hakkımızda</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Ana yapılarımın içinde bulunacağı container class ı oluşturalım -->
+    <div class="container">
+        <!-- Sayfanın dört bölümden oluştuğunu gözlemledim o yüzden 4 alt class oluşturalım -->
+        <!-- Google resim bulunan class -->
+        <div class="content">
+            <img style="display: block; margin: auto;" src="img/google.jpg" alt="Google">
+        </div>
+        <!-- Google arama kutusu ve arama butonlarının olduğu class -->
+        <div style="text-align: center; background-color:#EEEEEE;" class="content">
+            Search the web using Google! <br>
+            <input type="text" size="40"> <br>
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm feeling lucy">
+        </div>
+        <!-- Link lerin olduğu üç kutulu bölüm (altına üç ayrı class oluşturalım) -->
+        <div class="content">
+            <div class="card-1">
+                Special Searches <br>
+                <a href="">Standford Search</a> <br>
+                <a href="">Linux Search</a>
+            </div>
+            <div class="card-2" >
+                <a href="">Help!</a> <br>
+                <a href="">About Google!</a><br>
+                <a href="">Company Info</a><br>
+                <a href="">Google! Logos</a>
+            </div>
+            <div class="card-3">
+                Get Google! <br>
+                updates monthly: <br>
+                <input type="text" value="your e-mail" size="25"><br>
+                <input type="button" value="Subscribe">
+                <a href="">Archive</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!-- Son bölüm Firma Bilgileri -->
+        <div class="content" style="text-align: center;">
+            <p><i>Copyright ©1998 Google Inc.</i></p>
 
-<h1 class="header">Mardini Pizzas</h1>
-
-<!-- Navbar Start -->
-<div class="navbar">
-    <header class="navHeader">
-        <ul class="nav-ul">
-            <a class="navbarMenu" href="index.html">Anasayfa</a>
-            <a class="navbarMenu" href="menu.html">Menu</a>
-            <a class="navbarMenu" href="about-us.html">Hakkımızda</a>
-        </ul>
-    </header>
-</div>
-<!-- Navbar End -->
-
-<!-- Content Start -->
-<div>
-    <div class="about-us">
-        <h2>Hakkımızda</h2>
-        <p class="about-us-p">
-            MArdini Pizzas, 1977'de kurulan bir aile işletmesidir. Geleneklerimize ve lezzetimize bağlı
-            kalarak, kaliteli ve lezzetli pizzalar sunmaktayız. Müşteri memnuniyetini her zaman ön planda tutuyoruz
-            ve misafirlerimize en iyi hizmeti sunmaktan mutluluk duyuyoruz.
-        </p>
-        <p class="about-us-p">
-            Ekip olarak, işimizi tutkuyla yapıyoruz ve sürekli olarak kendimizi geliştirmek için çabalıyoruz.
-            Lezzetli tariflerimiz ve sıcak bir ortam ile sizleri Tasty Pizzas ailesi olarak ağırlamaktan onur
-            duyuyoruz.
-        </p>
-        <p class="about-us-p">
-            Bize ulaşmak için iletişim bilgilerimize göz atabilir veya dükkanımızı ziyaret edebilirsiniz.
-            Sizleri Tasty Pizzas'a bekliyoruz!
-        </p>
+        </div>
     </div>
-
-    <div class="contact">
-        <h2>İletişim</h2>
-        <p class="contact-p">
-            İletişim Bilgileri:<br>
-            Adres: BAGCILAR/İstanbul<br>
-            Telefon: 02121233212<br>
-            E-posta: ramozaymardinis@info.com.tr
-        </p>
-    </div>
-
-
-</div>
-<!-- Content End -->
-
-<!-- Footer Start -->
-<footer>
-    <p><small>MArddini Pizzas © 2023. Tüm hakları saklıdır.</small></p>
-</footer>
-<!-- Footer End -->
-
-
 </body>
 </html>
